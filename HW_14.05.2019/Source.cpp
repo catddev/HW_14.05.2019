@@ -12,7 +12,7 @@ int main() {
 	string str;
 
 	//почему через указатели выводит пустые строки?
-	//Instrument *ins = new Duhovoi; //почему указатель на один тип подходит всем дочерним классам?
+	//Instrument *ins; //почему указатель на один тип подходит всем дочерним классам?
 	//vector<Instrument*> orchestra;
 
 	while (!in_file.eof()) {
