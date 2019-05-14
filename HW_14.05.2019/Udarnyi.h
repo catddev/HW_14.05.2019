@@ -3,7 +3,10 @@
 
 class Udarnyi :public Instrument {
 public:
+	Udarnyi():Instrument(){}
+	Udarnyi(string type):Instrument(type){}
+
 	void show() {
-		cout << type << endl;
+		Instrument::show();
 	}
 };
